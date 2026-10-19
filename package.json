@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.39",
+    "@langchain/core": "^0.3.45",
+    "@langchain/langgraph": "^0.2.64",
+    "@langchain/langgraph-checkpoint-postgres": "^0.0.4",
+    "@langchain/openai": "^0.5.2",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "langchain": "^0.3.20",
+    "next": "15.2.4",
+    "next-auth": "^4.24.11",
+    "node-cron": "^3.0.3",
+    "openai": "^4.93.0",
+    "pg": "^8.14.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
